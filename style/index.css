@@ -1,1 +1,115 @@
 /* CSS stillerinizi buraya girin */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 50rem;
+}
+
+.baslik-alani {
+    border: 1px solid black;
+    margin: 0;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.baslik-alani-mini-foto {
+    display: flex;
+    margin-top: 0.3rem;
+}
+
+.baslik-alani-mini-foto img {
+    border-radius: 80%;
+    cursor: pointer;
+}
+
+.baslik-alani h5 {
+    margin-left: 40%;
+}
+
+header h2 {
+    text-align: center;
+}
+
+header nav {
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    width: 12vw;
+    height: 3vh;
+    background-color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.site-tanitim-alan {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+main {
+    margin-top: 3rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+section {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.proje-alani {
+    width: 100%;
+}
+
+.proje-alani-sol {
+    display: flex;
+    margin: 0 auto;
+}
+
+.proje-alani-sol div {
+    margin-right: 1rem;
+}
+
+.proje-alani-sag {
+    margin-right: 3rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    margin-top: 100px;
+    justify-content: center;
+    background-color: azure;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sosyalmedya {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sosyalmedya div {
+    margin-right: 5px;
+}
+
+.sosyalmedya img {
+    width: 20px;
+    cursor: pointer;
+}
