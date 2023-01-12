@@ -96,7 +96,7 @@ main {
 }
 
 #projects div:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: transform .5s ease;
 }
 
@@ -104,7 +104,7 @@ footer {
     margin-top: 0.5vh;
     justify-content: center;
     background-color: rgb(184, 190, 190);
-    height: 10vh;
+    height: 13vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
