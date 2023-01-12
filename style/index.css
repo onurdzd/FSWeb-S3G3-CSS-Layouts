@@ -77,16 +77,12 @@ main {
     border-bottom: 1px solid black;
 }
 
-section {
-    display: flex;
-    margin-top: 1vh;
-}
-
 #projects {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1vh;
 }
 
 #projects div {
