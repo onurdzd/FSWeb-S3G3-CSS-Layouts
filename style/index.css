@@ -10,6 +10,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 .container {
     width: 100vw;
     padding: 10px;
@@ -20,15 +22,14 @@ body {
     margin: 0;
     height: 4vh;
     text-align: center;
+    vertical-align: middle;
 }
 
-.baslik-alani h5 {
-    margin: 0.7vh auto;
-}
+
 
 .baslik-alani-mini-foto {
     display: flex;
-    margin-top: 0.3rem;
+    margin-top: 1vh;
     position: absolute;
 }
 
@@ -75,9 +76,8 @@ main {
     margin-top: 1vh;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-left: 2vh;
-    margin-right: 2vh;
 }
+
 
 #projects {
     width: 100%;
@@ -90,7 +90,7 @@ main {
 #projects div {
     margin-right: 1rem;
     cursor: pointer;
-    width: 18%;
+    width: 10%;
 }
 
 #projects img {
@@ -106,10 +106,9 @@ footer {
     margin-top: 0.5vh;
     justify-content: center;
     background-color: rgb(184, 190, 190);
-    height: 13vh;
+    height: 10vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -131,4 +130,58 @@ footer {
 .sosyalmedya img:hover {
     transform: scale(1.1);
     transition: transform .5s ease;
+}
+
+@media(max-width:550px) {
+    * {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:768px) {
+    #projects {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        align-content: stretch;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #projects #sectionlorem {
+        width: auto;
+    }
+}
+
+@media(min-width:769px) {
+    * {
+        font-size: 20px;
+    }
+
+    .baslik-alani h5 {
+        margin-top: 1em;
+    }
+
+    #projects {
+        max-height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        align-items: center;
+    }
+
+    #projects #sectionlorem {
+        width: 50%;
+    }
+}
+
+@media(min-width:1000px) {
+    * {
+        font-size: 25px;
+    }
+
+    .baslik-alani h5 {
+        margin-top: 0.5em;
+    }
 }
